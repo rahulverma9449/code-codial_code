@@ -1,0 +1,25 @@
+Config - Contains the database and server configuration files
+
+Controllers - Contains the javascript controller files.
+
+Middleware - Contains the middleware files for authentication and validation.
+
+Migrations - Contains the migration class files of our database ( here, tables of a database since SQL is used).
+
+Models - Contains the model class files created by our ORM. ( here SQL )
+
+Node_Modules - Packages and dependencies installed using NPM.
+
+Routers - Contains router files used to route requests to controllers. Here we make the API calls to the database through the controllers.
+
+Seeders - Files used for initializing the database tables with data.(Not Required for the project. This folder is created by the ORM).
+
+Services - Files with actual business logic used to access the database.
+
+.env file used to store environment variables.
+
+.gitignore file used to mention the modules which will be ignored by GIT.
+
+package-lock.json & package.json are used to store all metadata in JSON format.
+
+server.js - This file is the starting point of our application with calls to all the modules and functions. Running this file starts the server.
